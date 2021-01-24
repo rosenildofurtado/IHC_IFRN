@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/Atividade12.css">
     <link rel="shortcut icon" type="imagem/png" href="Imagens/bb.ico">
     <title>Bia Bolos</title>
@@ -11,19 +15,79 @@
         <figure class="logo"></figure>
         <figure><a href="indexIngles.html"><img class="idioma" src="Imagens/iconIngles.webp" alt="Bandeira de inglês"></a></figure>
         <ul>
-            <li><a href="#">Home</a></li>
-			<li><a href="indexIngles.html">Seviços</a></li>
-            <li><a href="Atividade12Q2Ingles.html">Produtos</a></li>
-            <li><a href="Atividade12Q2Ingles.html">Contato</a></li>
+            <li><a href="#">Início</a></li>
+			<li><a href="#prod">Produtos</a></li>
+            <li><a href="#somos">Quem somos</a></li>
+            <li><a href="#cont">Contato</a></li>
         </ul>
     </header>
 
     <main>
-        <section>
-            <p id="texto1">Só se preocupe em aproveitar a festa</p>
+        <section class="bemvindo">
+            <p class="texto1">Seja bem vindo ao site de Bia Bolos. Veja nossos produtos, faça seu pedido e saborei todas essas maravilhas.</p>
+            <br>
+            <p class="texto1">Só se preocupe em aproveitar a festa</p>
             <p id="texto2">Nós cuidamos do resto</p>
             <form action="Atividade12Q2.html"><button>Entre e Surpreenda-se</button></form>
         </section>
         
     </main>
+
+    <section class="produtos" id="prod">
+        <h2>Veja alguns dos nossos produtos</h2>
+
+        <table width: 94% cellspacing="5" cellpadding="10" >
+            <tr>
+                    
+                <th width=30%  aling="center">
+                    <figure class="produto"> 
+                        <img src="Imagens/bolo.jpg" alt="Imagem de bolo" width="100%" height="250">
+                        <p>Bolos de vários tipos e sabores.</p>
+                    </figure>
+                </th>
+                <th width=30%  aling="center">
+                    <figure class="produto">
+                        <img src="Imagens/brownie.jpg" alt="Imagem de brownies" width="100%" height="250">
+                        <p>Brownies estilizados para todos os seus momentos.</p>
+                    </figure>
+                </th>
+                <th width=30%  aling="center" >
+                    <figure class="produto">
+                        <img src="Imagens/cookie.jpg" alt="Imagem de cookies" width="100%" height="250">
+                        <p>Impressione seus filhos com os nossos Cookies.</p>
+                    </figure>
+                </th>
+            </tr>
+        </table>
+
+    </section>
+
+
+
+    <section class="quemsomos" id="somos">
+        <h2>Quem somos</h2>
+        <p>Bia Bolos is a fictiy company was  uma empresa fictícia que foi criada por um pai que teve a intenção de tentar incentivar sua filha para o dom que ela tem em fazer bolos e sobremesas. É uma missão muito difício porque ela só pensa em ler livros de romance e assistir séries de vampiros que só querem tirar a camisa, em vez de beber os sangue dos outros.</p>
+        Pelo menos, essa empresa está servindo para colocar os conhecimentos adquiridos no curso de TADS em prática.
+    </section>
+    
+
+    <footer class="rodape">
+            <figure class="logo">
+                <img id="logo" src="Imagens/bb.jpeg" alt="Logo de Bia Bolos com dois Bês estilosos" width="100" height="100">
+            </figure>
+            <address id="endereço">
+                Bia Bolos <br>
+                Rua sem saída, 0<br>
+                Bairro da Bocada, Natal-RN<br>
+                <a href="biabolos@algumacoisa.com">biabolos@algumacoisa.com</a> <br>
+                (84) 98888-7777
+            </address>
+
+    </footer>
+
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
